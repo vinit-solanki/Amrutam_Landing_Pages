@@ -19,7 +19,7 @@ function BookingPage() {
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
       <div className="absolute z-10 text-center px-4">
         <h1 className="text-3xl text-custom-lightYellow leading-relaxed md:text-5xl font-900 mb-6 tracking-wide">
-          Ready to restore harmony in <br /> your mind, body and spirit?
+          Ready to restore harmony in your mind, body and spirit?
         </h1>
         <button className="bg-custom-green hover:bg-green-700 text-white py-3 px-6 rounded-lg text-lg font-medium transition">
           Book a consultation

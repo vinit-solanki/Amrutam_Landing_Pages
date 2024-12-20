@@ -120,7 +120,7 @@ function ExpertsPage() {
           {experts.map((expert) => (
             <div
               key={expert.id}
-              className="flex justify-center gap-y-3 items-center"
+              className="flex justify-center gap-y-3 items-center mx-2"
             >
               <div className="w-[295px] h-[449px] bg-[#FFF9F0] rounded-3xl pt-10 gap-y-1 flex flex-col items-center justify-center relative">
                 <div className="overflow-hidden">

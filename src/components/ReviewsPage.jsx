@@ -152,7 +152,7 @@ function ReviewsPage() {
           className="md:space-x-4 flex justify-center items-center mt-5 px-2"
         >
           {reviews.map((review) => (
-            <div key={review.id} className="p-4">
+            <div key={review.id} className="p-4 mx-2">
               <div className="bg-white shadow-lg rounded-xl w-[335px] h-[390px] flex flex-col justify-center items-center md:w-[290px] md:h-[300px] lg:w-[388px] lg:h-[300px] mx-auto">
                 <div
                   className={`w-full ${
