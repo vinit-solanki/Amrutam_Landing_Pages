@@ -86,7 +86,7 @@ function ExpertsPage() {
             settings: {
               slidesToShow: 2,
               centerMode: true,
-              centerPadding: "20px",
+              centerPadding: "40px",
             },
           },
           {
@@ -94,7 +94,7 @@ function ExpertsPage() {
             settings: {
               slidesToShow: 1,
               centerMode: true,
-              centerPadding: "40px",
+              centerPadding: "20px",
             },
           },
         ],
@@ -117,10 +117,11 @@ function ExpertsPage() {
       {/* Carousel */}
       <div className="w-full max-w-5xl relative">
         <Slider {...settings}>
-          {experts.map((expert) => (
+          {experts.map((expert, index) => (
             <div
               key={expert.id}
-              className="flex justify-center gap-y-3 items-center mx-2"
+              className="flex justify-center gap-y-3 items-center mx-4"
+              style={{ margin: '0 10px' }}
             >
               <div className="w-[295px] h-[449px] bg-[#FFF9F0] rounded-3xl pt-10 gap-y-1 flex flex-col items-center justify-center relative">
                 <div className="overflow-hidden">

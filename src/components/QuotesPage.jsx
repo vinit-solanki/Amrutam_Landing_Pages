@@ -5,7 +5,7 @@ import ProductImage from "../assets/Jar.png";
 
 function QuotesPage() {
   return (
-    <div className="w-full min-h-screen bg-custom-lightYellow flex flex-col items-center py-8 px-8">
+    <div className="w-full min-h-screen bg-custom-lightYellow flex flex-col justify-center items-center py-8 px-8">
       <h1 className="text-3xl md:text-4xl font-bold text-center text-custom-green mb-4">
         What sets Ayurvedic consultations apart?
         <hr className="w-0 md:lg:w-full translate-y-[-6px] border-t-4 border-custom-green opacity-60 mx-auto mb-4" />
