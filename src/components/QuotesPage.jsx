@@ -1,6 +1,6 @@
 import React from "react";
-import HeroImage1 from "../assets/beachModel2.png";
-import HeroImage2 from "../assets/beachModel1.png";
+import HeroImage1 from "../assets/BeachModel2.png";
+import HeroImage2 from "../assets/BeachModel1.png";
 import ProductImage from "../assets/Jar.png";
 
 function QuotesPage() {
